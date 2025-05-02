@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "WorldGraffiti",
-    "slug": "WorldGraffiti",
+    "name": "worldGraffiti",
+    "slug": "world-graffiti",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "ios": {
       "supportsTablet": true
@@ -23,6 +23,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "platforms": ["ios", "android"]
   }
 }
